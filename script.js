@@ -14,9 +14,9 @@ const themeLabel = document.getElementById('theme-label');
 // Atualiza o texto do botão
 function updateLabel() {
     if (document.body.classList.contains('light')) {
-        themeLabel.textContent = 'Modo Claro: On';
+        themeLabel.textContent = 'Modo Escuro: On';
     } else {
-        themeLabel.textContent = 'Modo Claro: Off';
+        themeLabel.textContent = 'Modo Escuro: Off';
     }
 }
 
