@@ -738,3 +738,8 @@ body.light .nav-responsive {
   object-fit: cover; /* imagem preenche sem distorcer */
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
+.center-card {
+  grid-column: 1 / -1;   /* ocupa a linha inteira */
+  justify-self: center;  /* centraliza no grid */
+  max-width: 350px;
+}
